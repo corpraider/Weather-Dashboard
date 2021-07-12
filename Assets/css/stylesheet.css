@@ -10,25 +10,27 @@
 
 body {
     background:url('https://images.pexels.com/photos/1631677/pexels-photo-1631677.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     background-size:cover;
-
-    height: 100vh;
+    overflow:auto;
+    height: 200mvh;
     font-family:'oswald' , sans-serif;
 }
 
 header {
-    padding: 20px 0px 0px 20px;
+    padding: 20px 0px 5px 20px;
+    margin:auto;
 
 }
 
 header h1 {
     font-weight:bold;
     text-align: center;
-    content-visibility:initial;
     font-size: 5rem;
     Color: white;
     border-radius: 30px;
+    border-style:double;
+    
     
 }
 .container{
@@ -106,14 +108,14 @@ header h1 {
 }
 
 .future-forecast .today {
-    display:flex;
+    display:inline-flexbox;
     align-items: center;
-    justify-content: center;
+    justify-content:first baseline;
 }
 
 .future-forecast .today .day {
     padding: 5px 15px;
-    background:rgb(64, 3, 161);
+    background:rgb(248, 245, 252);
     border-radius: 50px;
     text-align:center;
 
